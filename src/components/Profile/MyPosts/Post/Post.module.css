@@ -1,0 +1,10 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/heart.css");
+
+.item {
+  color: green;
+}
+
+.item img {
+  width: 50px;
+  border-radius: 50%;
+}
