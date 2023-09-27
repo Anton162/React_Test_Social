@@ -8,12 +8,13 @@
     rgba(83, 159, 225, 1) 79%,
     rgba(135, 188, 234, 1) 100%
   );
+  padding: 10px;
 }
 
-.item {
-  color: white;
+.item a {
+  color: rgb(32, 30, 30);
 }
 
-.item.active {
-  color: red;
+.item a.activeLink {
+  color: rgb(27, 167, 14);
 }
