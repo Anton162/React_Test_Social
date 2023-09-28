@@ -2,3 +2,11 @@
   width: 50px;
   border-radius: 50%;
 }
+
+.postBlock {
+  padding: 10px;
+}
+
+.posts {
+  margin-top: 10px;
+}

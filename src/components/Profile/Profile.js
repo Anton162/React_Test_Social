@@ -1,15 +1,12 @@
 import React from "react";
 import style_profile from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg" />
-      </div>
-
-      <div>avatar discription</div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
