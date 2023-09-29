@@ -1,4 +1,7 @@
 .header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  padding: 10px;
   grid-area: h;
   background: linear-gradient(
     to right,
@@ -12,4 +15,22 @@
 .header img {
   width: 30px;
   border-radius: 50%;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
